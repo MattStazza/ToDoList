@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="../images/backgroundImage.png" alt="Background Image" width="100%" height="100%" />
+        <div class="clear">
+          <i class="refresh_btn"
+            >Refresh Button
+            <img src="../images/refresh_btn.png" alt="Refresh Button Image" class="refresh_btn" width="100%" height="100%" />
+          </i>
+        </div>
+        <div id="date">Date</div>
+      </div>
+      <div class="content">
+        <img src="../images/blue-gradient.png" class="blue-gradient" alt="Blue Gradient" width="100%" height="100%" />
+        <ul id="list">
+          <li class="item">
+            <i class="done_btn"
+              >Done
+              <img src="../images/unchecked_btn.png" class="done_btn" alt="Unchecked Button Image" width="100%" height="100%" />
+            </i>
+            <p class="text">Drink Coffee</p>
+            <i class="delete_btn"
+              >Trash
+              <img src="../images/delete_btn.png" alt="Delete Button Image" class="delete_btn" width="100%" height="100%" />
+            </i>
+          </li>
+        </ul>
+        <div class="add-item">
+          <i class="add_btn">
+            <img src="../images/add_btn.png" alt="Add Button Image" class="add_btn" width="100%" height="100%" />
+          </i>
+          <input type="text" id="input" placeholder="Add a to do" />
+        </div>
+      </div>
+    </div>
+    <script scr="../js/todoList.js"></script>
+  </body>
+</html>

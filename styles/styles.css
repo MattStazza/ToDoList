@@ -1,0 +1,110 @@
+.container {
+  height: 500px;
+  width: 500px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid;
+}
+
+.header {
+  position: relative;
+  height: 15%;
+  border: solid red;
+}
+
+.clear {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: dotted;
+  font-size: 12px;
+}
+
+.refresh_btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#date {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 50%;
+  height: 30%;
+  border: dotted;
+}
+
+.content {
+  position: relative;
+  border: solid green;
+  height: 83%;
+}
+
+/* Top div in Content div */
+#list {
+  width: 90%;
+  border: solid pink;
+}
+
+.item {
+  position: relative;
+  height: 20px;
+  border: dotted yellow;
+}
+
+.done_btn {
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  background-color: green;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  margin: auto;
+  font-weight: bold;
+}
+
+.delete_btn {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  background-color: red;
+}
+
+/* Bottom div in Content div */
+.add-item {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  bottom: 0px;
+  border: solid purple;
+}
+
+.add_btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+#input {
+  position: absolute;
+  right: 0px;
+  width: 80%;
+  height: 50%;
+  border: solid grey;
+}
+
+.blue-gradient {
+  position: absolute;
+}
