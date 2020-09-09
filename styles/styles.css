@@ -33,10 +33,13 @@
 
 #date {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
   width: 50%;
   height: 30%;
+  font-family: sans-serif;
   border: dotted;
 }
 
@@ -54,15 +57,27 @@
 
 .item {
   position: relative;
-  height: 20px;
+
   border: dotted yellow;
 }
 
-.done_btn {
+/* unchecked */
+.unchecked_btn {
   position: absolute;
   display: inline-block;
   left: 0px;
-  background-color: green;
+  background-image: url("../images/unchecked_btn.png");
+}
+
+/* checked */
+.checked_btn {
+  color: #6eb200;
+}
+
+/* line-through */
+.line-through {
+  text-decoration: line-through;
+  color: #ccc;
 }
 
 .text {
